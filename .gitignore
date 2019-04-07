@@ -1,8 +1,13 @@
 
-# Created by https://www.gitignore.io/api/python
-# Edit at https://www.gitignore.io/?templates=python
+# Created by https://www.gitignore.io/api/flask
+# Edit at https://www.gitignore.io/?templates=flask
 
-### Python ###
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -66,7 +71,6 @@ db.sqlite3
 
 # Flask stuff:
 instance/
-.webassets-cache
 
 # Scrapy stuff:
 .scrapy
@@ -127,6 +131,16 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+### Nuxt ###
+# gitignore template for Nuxt.js projects
+#
+# Recommended template: Node.gitignore
+
+# Nuxt build
+.nuxt
+
+ # Nuxt generate
+dist
 
 ### Go ###
 # Binaries for programs and plugins
